@@ -36,13 +36,16 @@ int main(int argc, char **argv) {
     size_t num = pow(2, 13) - pow(2, 5) - 1;
     cout<<"num: "<<bitset<64>(num)<<endl;
     cout<<"num: "<<bitset<64>(OFF_RIGHTMOST_CONT_1BITS(num))<<endl;
-    */
+    
 
     size_t x = 0b010101011101010;
     size_t y = 0b010101110101010;
     cout<<bitset<16>(x)<<endl;
     cout<<bitset<16>(y)<<endl;
     cout<<bitset<16>(x ^ y)<<endl;
+    */
+
+
 
     return 0;
 }
